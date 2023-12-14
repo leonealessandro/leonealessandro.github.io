@@ -1,0 +1,219 @@
+/*All pages*/
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF8F0;
+}
+
+body {
+  margin: 0px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-family: "Helvetica", "Arial", sans-serif;
+} 
+
+/*Index*/
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copy-button_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.copy1 {
+  font-size: 25px;
+  width: 100%;
+}
+
+.copy2 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.copy2 em {
+  font-style: italic;
+  color: #888680;
+}
+
+.button {
+  font-size: 30px;
+  color: black;
+  background-color: #DDD7D0;
+  width: 250px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  padding: 20px;
+  margin: 20px auto;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #FFF8F0;
+}
+/*End Index*/
+
+/*Projects*/
+.container-project1 {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.container-project1 .project-foto {
+  border: solid #DDD7D0 1px;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+}
+.container-all-projects-info {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 50px;
+}
+.container-all-projects-info h3 {
+  text-align: justify;
+  font-size: 22px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.container-all-projects-info .project_text {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 15px;
+  line-height: 1.3;
+}
+.container_all_projects_btn {
+  display: flex;
+  text-decoration: none;
+}
+.container_all_projects_btn .projects_btn {
+  background-color: #FFF8F0;
+  border: 3px solid;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 20px;
+  margin-right: 70px;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.container_all_projects_btn .projects_btn .icons1 {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.projects_btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/*End Projects*/
+
+
+
+.copy_cv  {
+  text-align: center;
+  margin-left: 15px;
+}
+
+
+/*Contact*/
+.contactme {
+  background-color:#F6F7F8;
+  text-align: center;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  margin: 40px 0;
+  padding: 50px;
+}
+.contactme h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contactme-form {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 50px;
+  margin: 0 0 40px 0;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form-row input[type='text'],
+.form-row input[type="email"] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+.form-row label {
+  margin-bottom: 15px;
+}
+
+
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+}
+
+.form-row .instructions {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.form-row button {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  background-color: #DDD7D0;
+  border: 2px solid #5D6063;
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 40px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+.form-row button:hover {
+  background-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #FFF8F0;
+}
+.form-row button:active {
+  background-color: #DDD7D0;
+}
+/*End Contact*/
