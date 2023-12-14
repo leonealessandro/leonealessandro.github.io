@@ -77,8 +77,7 @@ body {
 .copy1 {
   padding-top: 50px;
 }
-
-  padding-top: 50px;
+}
 /*End Index*/
 
 /*Projects*/
@@ -143,14 +142,13 @@ body {
 .container-project1 {
   margin-right: 100px;
   margin-left: 100px;
-}
+  }
 }
 
 /*End Projects*/
 
-
 /*cv*/
-.copy_cv  {
+.copy_cv{
   text-align: center;
   font-size: 20px;
   margin-left: 15px;
