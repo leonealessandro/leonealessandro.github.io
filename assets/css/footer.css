@@ -35,3 +35,7 @@ li {
     height: 100px;
     justify-content: center;
 }
+
+.footer_text {
+    font-size: 20px;
+}
